@@ -1,0 +1,12 @@
+
+def soma_numeros():
+    print("Bem-vindo ao programa de soma!")
+    
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    
+    resultado = num1 + num2
+    
+    print(f"A soma de {num1} e {num2} é: {resultado}")
+
+soma_numeros()
